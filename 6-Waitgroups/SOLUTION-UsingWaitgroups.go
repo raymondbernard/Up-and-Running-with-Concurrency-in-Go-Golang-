@@ -30,4 +30,3 @@ func doSomethingElse(){
 	fmt.Println("I've done something else")
 	wg.Done()  // This decrements wg by one, indicating that doSomethingElse is done.
 }
-}
